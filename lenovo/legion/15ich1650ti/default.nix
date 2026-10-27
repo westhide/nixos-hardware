@@ -12,7 +12,7 @@
 
   boot.initrd.kernelModules = [ "nvidia" ];
   boot.extraModulePackages = [
-    config.boot.kernelPackages.lenovo-legion-module
+    # config.boot.kernelPackages.lenovo-legion-module
     config.boot.kernelPackages.nvidia_x11
   ];
 
